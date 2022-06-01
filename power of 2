@@ -1,0 +1,16 @@
+public class Main
+{
+	public static void main(String[] args) {
+	 int a=powCal(5);
+	 System.out.println(a);
+	}
+    static int powCal(int power)
+	{
+	    if(power==0)
+	    {
+	        return 1;
+	    }
+	    else
+	    return 2*powCal(power-1);
+	}
+}
